@@ -3,8 +3,8 @@ import 'dart:convert';
 import 'package:intl/intl.dart';
 
 class WorldTime {
-  String location; //location 
-  String time; // time in that location
+  String location; //location
+  String time; // time 
   String flag; // url asset flag icon
   String url;
   bool isDaytime; // get day or night time
