@@ -4,8 +4,8 @@ import 'package:intl/intl.dart';
 
 class WorldTime {
   String location; //location
-  String time; // time 
-  String flag; // url asset flag icon
+  String time; // time
+  String flag; // url 
   String url;
   bool isDaytime; // get day or night time
 
