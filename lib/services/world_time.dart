@@ -14,10 +14,14 @@ class WorldTime {
 
   Future<void> getTime() async{
 
+    print("1");
+
 
     try {
       Response response = await get(
           'http://worldtimeapi.org/api/timezone/$url');
+
+      print("2");
 
       Map data = jsonDecode(response.body);
 
